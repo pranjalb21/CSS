@@ -1,0 +1,23 @@
+.hidden {
+    border: 5px saddlebrown solid;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.scroll {
+    border: 5px saddlebrown solid;
+    height: 100px;
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+.auto {
+    border: 5px saddlebrown solid;
+    height: 100px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.default {
+    border: 5px saddlebrown solid;
+    height: 100px;
+    margin-bottom: 10px;
+}
