@@ -16,7 +16,7 @@
     overflow: auto;
     margin-bottom: 10px;
 }
-.default {
+.visible {
     border: 5px saddlebrown solid;
     height: 100px;
     margin-bottom: 10px;
