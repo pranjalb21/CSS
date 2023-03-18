@@ -1,0 +1,15 @@
+.font{
+    border: 5px solid tomato;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;    
+    width: 300px;
+    line-height: 40px;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+
