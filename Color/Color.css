@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    margin: 20px;
+    background: linear-gradient(to bottom, orange, white, green);
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    align-self: center;
+    background: repeating-linear-gradient(90deg,blue, white,blue,white,blue,white,blue,white);
+    opacity: 0.6;
+}
+.box2{
+    height: 200px;
+    width: 400px;
+    align-self: center;
+    margin: 20px;
+    background: linear-gradient(to  right, violet,indigo,blue,green,yellow,orange,red),url(photo.jpeg);
+    background-blend-mode: saturation;
+    background-size: cover;
+    opacity: 0.6;
+}

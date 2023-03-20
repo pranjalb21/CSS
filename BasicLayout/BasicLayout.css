@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-family: 'Rubik Iso', cursive;
+font-family: 'Sono', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    background-color: darkkhaki;
+}
+.container{
+    width: 800px;   
+    margin: 0 auto;
+    background-color: rgb(152, 198, 238);
+}
+.header{
+    height: 80px;
+    background-color: brown;
+    color: aliceblue;
+}
+.header h1{
+    margin: 0;
+    padding: 15px 20px;
+    float: left;
+}
+.menu {
+    background-color: chocolate;
+    box-sizing: border-box;
+}
+.menu li{
+    display: inline-block;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 222, 140);
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.content{
+    width: 600px;
+    float: left;
+    min-height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.content h2{
+    font-family: 'Rubik Iso', cursive;
+    text-decoration: underline;
+}
+.sidebar{
+    width: 200px;
+    float: right;
+    min-height: 400px;
+    background-color: cadetblue;
+}
+.sidebar li{
+    padding: 10px 0;
+    list-style-type: none;
+    
+}
+.sidebar li a:hover{
+    color: darkblue;
+    font-weight: bold;
+}
+.sidebar li a{
+    text-decoration: none;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    height: 30px;
+    background-color: darkgray;
+}
+.header .search{
+    float: right;
+}
+.search{
+    height: 40px;
+    width: 320px;
+    padding: 5px 10px;
+    display: flex;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.search .icon{
+    padding: 5px;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+}
+.search input{
+    width: 220px;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+}
+.search button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.search button:hover{
+    color: darkred;
+    font-weight: bold;
+}
