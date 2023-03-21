@@ -1,0 +1,82 @@
+.fixed{
+    height: 100px;
+    width: 100px;
+    border: 1px solid coral;
+    background-color: blueviolet;
+    position: fixed;
+    top: 200px;
+}
+.sticky{
+    height: 100px;
+    width: 100px;
+    border: 1px solid coral;
+    background-color: chocolate;
+    position: sticky;
+    left: 100px;
+    top: 50px;
+}
+.relative{
+    height: 200px;
+    width: 200px;
+    border: 1px solid coral;
+    background-color: rgb(14, 1, 26);
+    position: relative;
+    left: 250px;
+}
+.absolute{
+    height: 100px;
+    width: 100px;
+    border: 1px solid coral;
+    background-color: rgb(100, 70, 128);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.stick{
+    height: 100px;
+    width: 100px;
+    border: 1px solid coral;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 30px;
+}
+.zindex{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    left: 40px;
+    top: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    left: 60px;
+    top: 60px;
+    position: absolute;
+}
+.box4{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    left: 80px;
+    top: 80px;
+    position: absolute;
+    z-index: 2;
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px){
+    body{
+        background-color: orange;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: lightcoral;
+    }
+}
+@media screen and (max-width: 300px){
+    body{
+        background-color: crimson;
+    }
+}
