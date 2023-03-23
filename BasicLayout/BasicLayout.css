@@ -3,17 +3,18 @@ body{
     padding: 0;
     font-family: roboto;
     font-family: 'Rubik Iso', cursive;
-font-family: 'Sono', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sono', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: darkkhaki;
 }
 .container{
-    width: 800px;   
+    width: 100vw; 
+    height: 100vh;  
     margin: 0 auto;
     background-color: rgb(152, 198, 238);
 }
 .header{
-    height: 80px;
+    height: 12vh;
     background-color: brown;
     color: aliceblue;
 }
@@ -46,9 +47,9 @@ font-family: 'Ubuntu', sans-serif;
     color: aliceblue;
 }
 .content{
-    width: 600px;
+    width: 80vw;
     float: left;
-    min-height: 400px;
+    min-height: 77vh;
     padding: 10px;
     box-sizing: border-box;
     background-color: bisque;
@@ -58,9 +59,9 @@ font-family: 'Ubuntu', sans-serif;
     text-decoration: underline;
 }
 .sidebar{
-    width: 200px;
+    width: 20vw;
     float: right;
-    min-height: 400px;
+    min-height: 77vh;
     background-color: cadetblue;
 }
 .sidebar li{
@@ -78,7 +79,7 @@ font-family: 'Ubuntu', sans-serif;
 .footer{
     clear: both;
     text-align: center;
-    height: 30px;
+    height: 5vh;
     background-color: darkgray;
 }
 .header .search{
@@ -119,4 +120,31 @@ font-family: 'Ubuntu', sans-serif;
 .search button:hover{
     color: darkred;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px){
+    .content{
+        width: 70vw;
+    }
+    .sidebar{
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .content{
+        width: 60vw;
+    }
+    .sidebar{
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .content{
+        width: auto;
+        float: none;
+    }
+    .sidebar{
+        width: auto;
+        float: none;
+    }
 }
