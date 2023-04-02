@@ -22,3 +22,11 @@ body{
     font-size: 80px;
     -webkit-background-clip: text;
 }
+
+
+div p {
+    color: red;
+}
+div+p {
+    color: blue;
+}

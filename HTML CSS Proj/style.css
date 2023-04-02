@@ -1,0 +1,149 @@
+body {
+    background-color: #c6ded2;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem 5% 3rem 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 300px;
+}
+
+nav {
+    background-color: rgb(166, 191, 216);
+    height: 40px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    box-sizing: border-box;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 8px 15px;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: lightslategrey;
+    color: rgb(248, 239, 228);
+    font-weight: 100;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+footer div {
+    flex: 1;
+}
+footer div img {
+    height: 100px;
+    width: 60px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+
+}
+.heading article{
+    background-image: url(./Little-Lemon-logos/discount-food-food-sale-plate-inscription-ketc.jpg);
+    padding: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #110d7e;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.heading article p{
+    font-size: 2rem;
+    width: 50vw;
+    color: rgb(4, 9, 14);
+}
+
+.menu article h2 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.menu article p {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.heading article:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.menu article {
+    margin: 20px 20px 20px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu article:hover {
+    box-shadow: 2px 2px 5px black;
+}
+.menu article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu p {
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+footer div+div {
+    text-align: center;
+    color: rgb(194, 238, 123);
+    font-family: 'Nosifer', cursive;
+    text-shadow: 0 5px 11px lawngreen;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: 100;
+}
+footer div+div:hover {
+    font-weight: 900;
+    text-shadow: 0 10px 11px lawngreen;
+} 
+
+
